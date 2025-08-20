@@ -107,7 +107,11 @@ class _CameraScreenState extends State<CameraScreen> {
                     ),
                     ElevatedButton(
                       onPressed: _onTakeImage,
-                      child: Text("Take Photo"),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.blue,
+                        foregroundColor: Colors.white,
+                      ),
+                      child: Text("Detect Object"),
                     ),
                     SizedBox(
                       height: 400,
